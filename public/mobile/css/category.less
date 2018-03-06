@@ -1,0 +1,50 @@
+@import "./common.less";
+.lt_container {
+    height: 100%;
+    background-color: sienna;
+    position: relative;
+    padding-left: 80px;
+    .left_menu {
+        position: absolute;
+        text-align: center;
+        height: 100%;
+        width: 80px;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        .left_menu_ul {
+            background-color: red;
+            .tl_LU();
+            li {
+                background-color: khaki;
+                color: #000;
+                >a {
+                    height: 40px;
+                    line-height: 40px;
+                    display: block;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .right_menu {
+        position: relative;
+        height: 100%;
+        .lt_item {
+            >a {
+                float: left;
+                width: 33.33%;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+                >p {
+                    text-align: center;
+                    font-size: 16px;
+                   
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}

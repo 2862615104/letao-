@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分页</title>
+    <link rel="stylesheet" href="./assets/mui/css/mui.css">
+    <link rel="stylesheet" href="./assets/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+
+<body>
+    <header class="lt_header">
+        <h4 class="lt_title">
+            <a class="lt_h_left" href="javascript:history.back();">
+            <span class="fa fa-arrow-left"></span>
+          </a> 搜索中心
+        </h4>
+    </header>
+    <div class="lt_con">
+        <div class="soearch_form">
+
+            <form action="mui-clearfix">
+                <input class="secchTx" type="text">
+                <button class="secheBut" type="button">搜索框</button>
+            </form>
+        </div>
+
+        <!-- 记录清空 -->
+        <div class="history">
+            <div class="his_info">
+                没有搜索记录
+            </div>
+            <div class="his_record">
+                <div class="his_toll mui-clearfix">
+                    <span class="mui-pull-left">搜索历史</span>
+                    <a class="mui-pull-right clearAll" href="javascript:;">
+                   <span class="mui-icon mui-icon-trash"></span>
+                     清空记录
+               </a>
+                </div>
+                <ul>
+                    <li>
+                        获取
+                        <a class="removeItem mui-pull-right" href="javascript:;"><span class="mui-icon mui-icon-closeempty"></span></a>
+                    </li>
+                    <li> 呵呵<a class="removeItem mui-pull-right" href="javascript:;"><span class="mui-icon mui-icon-closeempty"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<footer class="lt_footer mui-clearfix">
+    <a  href="/mobile/index.html">
+      <span class="mui-icon mui-icon-home"></span>
+      <p>首页</p>
+    </a>
+    <a href="/mobile/category.html">
+      <span class="mui-icon mui-icon-bars"></span>
+      <p>分类</p>
+    </a>
+    <a href="/mobile/cart.html">
+      <span class="fa fa-shopping-cart"></span>
+      <p>购物车</p>
+    </a>
+    <a href="/mobile/user/index.html">
+      <span class="fa fa-user"></span>
+      <p>会员中心</p>
+    </a>
+</footer>
+</body>
+
+</html>
+<script src="./assets/mui/js/mui.js"></script>
+<script src="./assets/zepto/zepto.min.js"></script>
+<script src="./assets/zepto/touch.js"></script>
+<script src="./assets/zepto/event.js"></script>
+<script src="./js/search.js"></script>

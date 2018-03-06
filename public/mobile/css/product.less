@@ -1,0 +1,76 @@
+@import "./common.less";
+.lt_con {
+    position: relative;
+    height: 100%;
+    .pro_info {
+        font-size: 17px;
+        background-color: #fff;
+        padding: 10px 5px;
+        border-bottom: 1px solid #ccc;
+    }
+    .tl_price {
+        background-color: #fff;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        .new_price {
+            font-size: 20px;
+            color: red;
+        }
+        .old_price {
+            font-size: 14px;
+            color: #666;
+            text-decoration: line-through;
+        }
+    }
+    .tl_size {
+        padding: 5px;
+        background-color: #fff;
+        border-bottom: 1px solid #ccc;
+        >span {
+            border: 1px solid #ccc;
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            margin-bottom: 5px;
+        }
+        .active {
+            background-color: orange;
+            color: #fff;
+        }
+    }
+    .tl_num {
+        background-color: #fff;
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.lt_footer_tool {
+    position: fixed;
+    width: 100%;
+    background-color: salmon;
+    bottom: 0;
+    z-index: 100;
+    height: 50px;
+    padding-left: 60px;
+    padding-top: 6px;
+    >.cart_icon {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        color: #000;
+        font-size: 26px;
+        >span {
+            font-size: inherit;
+        }
+    }
+    .ft_tool {
+        padding-right: 10px;
+        >.mui-btn {
+            padding: 10px;
+            width: 45%;
+        }
+    }
+}

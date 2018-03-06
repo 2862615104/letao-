@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分页</title>
+    <link rel="stylesheet" href="../assets/mui/css/mui.css">
+    <link rel="stylesheet" href="../assets/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../css/user/login.css">
+</head>
+
+<body>
+    <header class="lt_header">
+        <h4 class="lt_title">
+            <a class="lt_h_left" href="javascript:history.back();">
+                <span class="fa fa-arrow-left"></span>
+            </a>登录
+        </h4>
+    </header>
+<div class="lt_container">
+    <form action="lt_form">
+        <input placeholder="请输入用户名" type="text" class="username"  name="username" >
+    <div class="mui-input-row">
+        <input name="password" type="password" class="password mui-input-password" placeholder="请输入密码" data-input-password="1">
+        <span class="mui-icon mui-icon-eye"></span>
+    </div>
+    <button type="button" class="ltBtn mui-btn mui-btn-primary">登录</button>
+    </form>
+    <a href="./register.html"class="lt_register mui-pull-right">免费注册</a>
+</div>
+    
+
+    <footer class="lt_footer mui-clearfix">
+        <a href="/mobile/index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <p>首页</p>
+        </a>
+        <a href="/mobile/category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <p>分类</p>
+        </a>
+        <a href="/mobile/cart.html">
+            <span class="fa fa-shopping-cart"></span>
+            <p>购物车</p>
+        </a>
+        <a href="/mobile/user/index.html">
+            <span class="fa fa-user"></span>
+            <p>会员中心</p>
+        </a>
+    </footer>
+</body>
+
+</html>
+<script src="../assets/mui/js/mui.js"></script>
+<script src="../assets/zepto/zepto.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/user/login.js"></script>

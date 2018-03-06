@@ -1,0 +1,53 @@
+@import "./common.less";
+.lt_con {
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+    form {
+        border: 1px solid #f60;
+        overflow: hidden;
+        border-radius: 20px;
+        .secchTx {
+            float: left;
+            padding: 0;
+            margin: 0;
+            width: 80%;
+            height: 30px;
+            border: none;
+            border-radius: 0;
+        }
+        .secheBut {
+            float: left;
+            width: 20%;
+            padding: 0;
+            margin: 0;
+            height: 30px;
+            border: none;
+            background-color: #f60;
+            border-radius: 0;
+            color: #fff;
+        }
+    }
+    .history {
+        padding-top: 20px;
+        color: #ccc;
+        .his_toll {
+            font-size: 14px;
+            .clearAll {
+                color: inherit;
+            }
+        }
+        ul{
+            .tl_LU();
+            li{
+                border: 1px solid #ccc;
+                padding: 3px 8px;
+                border-bottom: none;
+            }
+            
+            li:last-child{
+              border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+}

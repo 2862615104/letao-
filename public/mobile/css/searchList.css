@@ -1,0 +1,138 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-top: 45px;
+}
+.lt_header {
+  background-color: salmon;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  height: 45px;
+  color: #fff;
+  padding: 10px;
+  z-index: 100;
+}
+.lt_header .lt_title {
+  position: relative;
+}
+.lt_header .lt_title .lt_h_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+}
+.lt_header .lt_title .lt_h_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+.lt_footer {
+  position: fixed;
+  width: 100%;
+  background-color: salmon;
+  bottom: 0;
+  text-align: center;
+  z-index: 100;
+  height: 50px;
+  padding-top: 6px;
+}
+.lt_footer > a {
+  width: 25%;
+  color: #fff;
+  float: left;
+  font-size: 14px;
+}
+.lt_footer > a > span {
+  font-size: 20px;
+}
+.lt_footer > a > p {
+  color: inherit;
+  font-size: 15px;
+}
+.lt_footer .active {
+  color: aqua;
+}
+.lt_con {
+  height: 100%;
+  position: relative;
+}
+.lt_con .soearch_form {
+  padding: 10px;
+  background-color: #fff;
+}
+.lt_con .soearch_form form {
+  border: 1px solid aqua;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.lt_con .soearch_form form .secchTx {
+  float: left;
+  width: 80%;
+  height: 28px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.lt_con .soearch_form form .secheBut {
+  float: right;
+  background-color: aqua;
+  color: #fff;
+}
+.lt_con .od_tool > a {
+  background-color: red;
+  width: 25%;
+  font-size: 14px;
+  float: left;
+  text-align: center;
+  padding: 5px;
+  color: #000;
+}
+.lt_con .lt_nommodity {
+  padding: 5px 0;
+}
+.lt_con .lt_nommodity ul {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  list-style: none;
+}
+.lt_con .lt_nommodity ul li {
+  float: left;
+  width: 50%;
+  padding: 2px;
+  text-align: center;
+}
+.lt_con .lt_nommodity ul li .lt_item {
+  border: 1px solid #ccc;
+  padding: 1px 5px 10px;
+}
+.lt_con .lt_nommodity ul li .lt_item > img {
+  width: 100%;
+}
+.lt_con .lt_nommodity ul li .lt_item .product_info {
+  font-size: 14px;
+  color: #666;
+  height: 40px;
+  overflow: hidden;
+}
+.lt_con .lt_nommodity ul li .lt_item > p .new_price {
+  color: red;
+}
+.lt_con .lt_nommodity ul li .lt_item > p .old_price {
+  color: #666;
+  text-decoration: line-through;
+}
+.lt_con .lt_nommodity ul li .lt_item > a {
+  background-color: red;
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=./searchList.css.map */

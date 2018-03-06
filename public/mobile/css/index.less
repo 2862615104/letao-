@@ -1,0 +1,110 @@
+@import "./common.less";
+.lt_container {
+    height: 100%;
+    position: relative;
+    .lt_nva {
+        padding: 6px 0;
+        >a {
+            float: left;
+            width: 33.33%;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    .lt_van {
+        >a:nth-child(1) {
+            float: left;
+            width: 67%;
+            >img {
+                width: 50%;
+                float: left;
+                display: block;
+            }
+        }
+        >a:nth-child(2) {
+            float: right;
+            width: 33%;
+            >img {
+                width: 100%;
+                float: right;
+            }
+        }
+        >a:nth-child(3) {
+            float: left;
+            width: 67%;
+            >img {
+                width: 50%;
+                float: left;
+                display: block;
+            }
+        }
+    }
+    .lt_brand {
+        img {
+            width: 100%;
+            display: block;
+        }
+        ul {
+            .tl_LU();
+            li {
+                float: left;
+                width: 25%;
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+    .lt_sport {
+        img {
+            width: 100%;
+            display: block;
+        }
+        ul {
+            .tl_LU();
+            li {
+                padding: 3px;
+                float: left;
+                width: 50%;
+                text-align: center;
+                .lt_til {
+                    padding: 1px 15px 15px;
+                    border-bottom: 1px solid #ccc;
+                    img {
+                        width: 100%;
+                        display: block;
+                    }
+                    .product_info {
+                        height: 40px;
+                        font-size: 14px;
+                        overflow: hidden;
+                        color: #666;
+                    }
+                    >p {
+                        font-size: 14px;
+                        color: #8f8f94;
+                        padding-top: 0px;
+                        padding-bottom: 10px;
+                        .new_price {
+                            color: red;
+                        }
+                        .new_boot {
+                            text-decoration: line-through;
+                        }
+                    }
+                    >a {
+                        background-color: aqua;
+                        font-size: 14px;
+                        color: #fff;
+                        padding: 8px 12px;
+                        border-radius: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
